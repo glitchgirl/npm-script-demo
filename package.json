@@ -1,0 +1,25 @@
+{
+  "name": "npm-script-demo",
+  "version": "1.0.0",
+  "description": "learning them scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "dep-build": "npm install express && npm install mysql && npm install mocha && npm install chai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glitchgirl/npm-script-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glitchgirl/npm-script-demo/issues"
+  },
+  "homepage": "https://github.com/glitchgirl/npm-script-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
